@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+   
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <title>Hello, World!</title>
+    <style>
+    button{
+      font-size:50px;
+    }
+   #a1{
+     background-color:black;
+     border:0px;
+     color:#Ffffff;
+     font-size:50px;
+   }
+    body{
+      font-size:50px;
+    }
+    input[type="range"]{
+      height:50px;
+      width:500px;
+    }
+    #h1{
+      height:50px;
+      width:100px;
+      font-size:35px;
+      border-radius:25px;
+      border:5px solid black;
+    }
+    #h1:hover{
+      height:50px;
+      width:200px;
+      font-size:35px;
+      border-radius:25px;
+      border:5px solid black;
+      transition:0.6s;
+      
+    }
+      
+    #j1{
+      height:50px;
+      width:100px;
+      font-size:35px;
+      border-radius:25px;
+      border:5px solid black;
+    }
+    #j1:hover{
+      height:50px;
+      width:200px;
+      font-size:35px;
+      border-radius:25px;
+      border:5px solid black;
+      transition:0.6s;
+      
+    }
+    #k1{
+      height:50px;
+      width:100px;
+      font-size:35px;
+      border-radius:25px;
+      border:5px solid black;
+    }
+    #k1:hover{
+      height:50px;
+      width:500px;
+      font-size:35px;
+      border-radius:25px;
+      border:5px solid black;
+      transition:0.6s;
+    }
+      #fa{
+      height:50px;
+      width:100px;
+      font-size:35px;
+      border-radius:25px;
+      border:5px solid black;
+    }
+    #fa:hover{
+      height:50px;
+      width:500px;
+      font-size:35px;
+      border-radius:25px;
+      border:5px solid black;
+      transition:0.6s;
+    }
+      
+    </style>
+    <script>
+       function my(){
+         var a=document.getElementById('b1').value;
+         var b=document.getElementById('e1').value;
+         var c=document.getElementById('f1').value;
+         var d=document.getElementById('g1').value;
+         var e=document.getElementById('h1').value;
+         var f=document.getElementById('i1').value;
+         var g=document.getElementById('j1').value;
+         var h=document.getElementById('k1').value;
+         
+         var i=document.getElementById('k1').value;
+         
+         
+         
+         document.getElementById('a1').style.backgroundColor=a;      
+       document.getElementById('a1').style.color=b; 
+         document.getElementById('a1').style.fontSize=c+'px'; 
+         document.getElementById('a1').style.borderRadius=d+'px';
+         document.getElementById('a1').style.border=e+'px solid'+f;
+       document.getElementById('a1').style.transition=g+'s';
+         document.getElementById('a1').style.transform=h;
+         document.getElementById('a1').style.fontFamily=i;
+           
+       
+       }  
+          function ly(){
+      var a=document.getElementById('b1').value;
+      var b='button{';
+      var c=';';
+      var d='<br>';
+      var e='font-size:';
+      var f='border:';
+      var g='color:';
+      var h='background-color:';
+    var i=document.getElementById('e1').value;  
+      var j=document.getElementById('f1').value+'px'; 
+     
+         var k=document.getElementById('g1').value+'px';  
+      var l=document.getElementById('h1').value+'px'+'';
+         var m=document.getElementById('i1').value;  
+var n='transition:'+document.getElementById('j1').value+'s'; 
+            var o='transform:'+document.getElementById('k1').value;
+            document.getElementById('c1').innerHTML=b+d+h+a+c+d+g+i+c+d+f+l+' solid '+m+c+d+e+j+c+d+'border-radius:'+k+c+d+n+c+d+o+c+d+'}';
+    
+    }
+       
+    
+    
+    
+    
+      function get(){
+      var a=document.getElementById('b1').value;
+      var b='button:hover{';
+      var c=';';
+      var d='<br>';
+      var e='font-size:';
+      var f='border:';
+      var g='color:';
+      var h='background-color:';
+    var i=document.getElementById('e1').value;  
+      var j=document.getElementById('f1').value+'px'; 
+     
+         var k=document.getElementById('g1').value+'px';  
+      var l=document.getElementById('h1').value+'px'+'';
+         var m=document.getElementById('i1').value;  
+var n='transition:'+document.getElementById('j1').value+'s';  
+   var o='transform:'+document.getElementById('k1').value;
+        document.getElementById('d1').innerHTML=b+d+h+a+c+d+g+i+c+d+f+l+' solid '+m+c+d+e+j+c+d+'border-radius:'+k+c+d+n+c+d+o+c+d+'}';
+    
+    }
+    </script>
+  </head>
+  <body>
+    <center> <button id="a1">css button</button></center><br>
+   background-color: <br>
+    <button> <input type="color" id="b1"></button><br>
+    <br>
+ font-color:<br><button><input type="color" value="#FFFFFF" id="e1"></button><br>
+    <br>
+    border-color:<br><button><input type="color" id="i1" value="#FFFFFF"></button><br>
+      <br>
+   font-size:<br><button><input type="range" id="f1"></button><br>
+    <br>
+    border-radius:<br><button><input type="range" value="25" id="g1"></button><br>
+    <br>
+    border:<br><input type="number" id="h1" placeholder="border-size" value="0"><br>
+    <br>
+  transition-delay: <br> <input type="number" id="j1" value="0.0"><br>
+    <br>
+    transform:<br>
+    <input type="text" value="none" id="k1"><br>
+    <br>
+    
+    
+    <button onclick="my()">have a look</button>
+    <button onclick="ly()">get coad</button>
+
+    <button onclick="get()">get hover code</button>
+    <p id="c1"> </p>
+    <p id="d1"></p>
+    
+  </body>
+</html>

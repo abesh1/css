@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=0.09, maximum-scale=0.09, user-scalable=no" />
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Hello, World!</title>
+  <style>
+    *{
+margin:0;
+padding:0;
+}
+     button{
+font-size:50px;
+background-color:#C0C0C0;
+border:1px solid aqua;
+color:aqua;
+height:100px;
+}
+button:hover{
+font-size:50px;
+background-color:aqua;
+border:1px solid aqua;
+color:#C0C0C0;
+height:100px;
+}
+#ok{
+background-color:gray;
+height:2200px;
+width:400px;
+font-size:45px;
+transform:translateX(-400px)
+}
+#g{
+background-color:#C0C0C0;
+font-size:80px;
+width:82%;
+float:right;
+height:100px;
+color:aqua;
+}
+
+#ok a{
+font-size:35px;
+background-color:#00000000;
+color:aqua;
+border-radius:25px;
+border:2px solid aqua;
+}
+#ok a:hover{
+font-size:40px;
+background-color:aqua;
+color:gray;
+border-radius:25px;
+border:2px solid aqua;
+transition:0.4s;
+}
+
+ h1{
+color:#000000;
+float:right;
+transform:translateY(-2200px);
+width:1000px;
+}
+ div{
+          position:fixed;
+          overflow-x:hidden;
+        }
+      nav button{
+        float:right;
+       
+      }
+      iframe{
+        float:right;
+      }
+  </style>
+      <script>
+        function my(){
+document.getElementById('ok').style.transform='translateX(0PX)';
+document.getElementById('ok').style.transition='0.6s';
+}
+  function ly(){
+document.getElementById('ok').style.transform='translateX(-400PX)';
+document.getElementById('ok').style.transition='0.6s';
+}
+
+      </script>
+    </head>
+    <body>
+      <div> 
+      <button onclick="my();"> tools🛠 </button>
+     
+        <nav id="ok">
+       <button onclick="ly();">✖</button><br>
+          
+         <a href="instruction.html">instruction</a><br>
+          <br>
+          <a href="index.html">custom button</a><br>
+        <br>
+        <a href="input.html">custom searchbox</a><br>
+        <br>
+          <a href="page.html">custom page</a><br><br>
+        <a href="test.html">test coads</a><br> 
+       
+      </nav>
+      </div>
+      
+       <iframe src="text1.html" height="4000px" width="1000px"></iframe>
+     
+      
+  </body>
+</html>
