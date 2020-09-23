@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://abeshport.xyz/</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://abeshport.xyz/instruction.html</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://abeshport.xyz/index.html</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://abeshport.xyz/input.html</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://abeshport.xyz/page.html</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://abeshport.xyz/test.html</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://abeshport.xyz/color.html</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://abeshport.xyz/an.html</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://abeshport.xyz/text1.html</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://abeshport.xyz/text.html</loc>
+  <lastmod>2020-09-23T12:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
